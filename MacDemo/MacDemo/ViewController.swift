@@ -16,8 +16,8 @@ class ViewController: NSViewController {
   }
 
   @IBAction func didAddAccessPoint(_ sender: Any) {
- 
-  print("add")
+    print("add")
+    self.performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "AddAccessPointSegue"), sender: self)
   }
   
 }

@@ -680,7 +680,7 @@
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="107" y="-201"/>
+            <point key="canvasLocation" x="136" y="-504"/>
         </scene>
         <!--Manage Access Point-->
         <scene sceneID="oP1-ZJ-PQb">
@@ -783,10 +783,13 @@
                             <constraint firstItem="UXa-hu-5nG" firstAttribute="bottom" secondItem="4Tq-jj-K7q" secondAttribute="bottom" constant="-19" id="zqZ-jt-mds"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="2O8-S7-2Bc" kind="sheet" identifier="AddAccessPointSegue" id="v42-I3-Lds"/>
+                    </connections>
                 </viewController>
                 <customObject id="aB1-82-xJh" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="112.5" y="41.5"/>
+            <point key="canvasLocation" x="17" y="-58"/>
         </scene>
         <!--Manage Access Point-->
         <scene sceneID="R2V-B0-nI4">
@@ -807,7 +810,20 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120" y="565"/>
+            <point key="canvasLocation" x="-518" y="996"/>
+        </scene>
+        <!--Add Access Point View Controller-->
+        <scene sceneID="wB0-ae-WdG">
+            <objects>
+                <viewController id="2O8-S7-2Bc" customClass="AddAccessPointViewController" customModule="MacDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="zS3-AT-CHa">
+                        <rect key="frame" x="0.0" y="0.0" width="506" height="421"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="k4a-MF-3Il" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-131" y="469"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
