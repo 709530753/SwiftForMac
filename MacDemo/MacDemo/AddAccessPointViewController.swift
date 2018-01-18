@@ -14,5 +14,17 @@ class AddAccessPointViewController: NSViewController {
         super.viewDidLoad()
 
   }
-    
+  
+  
+  /// cancel
+  ///
+  /// - Parameter sender:
+  @IBAction func didCancelClicked(_ sender: Any) {
+    self.dismiss(self)
+  }
+  
+  @IBAction func didActivate(_ sender: Any) {
+    print("active!")
+  }
+  
 }
