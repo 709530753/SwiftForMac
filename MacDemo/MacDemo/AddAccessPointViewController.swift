@@ -10,11 +10,13 @@ import Cocoa
 
 class AddAccessPointViewController: NSViewController {
 
-    override func viewDidLoad() {
+  @IBOutlet weak var progressView: NSProgressIndicator!
+  @IBOutlet weak var progressLab: NSTextField!
+  
+  override func viewDidLoad() {
         super.viewDidLoad()
 
   }
-  
   
   /// cancel
   ///
@@ -23,8 +25,27 @@ class AddAccessPointViewController: NSViewController {
     self.dismiss(self)
   }
   
+  
+  /// achive 激活
+  ///
+  /// - Parameter sender: 激活
   @IBAction func didActivate(_ sender: Any) {
     print("active!")
+    //show alter
+//    showAlert(title: "message", content: "content")
+    toggleProvisionStatusIndicator(true)
+  }
+  
+  func toggleProvisionStatusIndicator(_ provisioning: Bool) {
+    self.progressLab.isHidden = !provisioning
+    self.progressView.isHidden = !provisioning
+    if provisioning {
+      //指示进度条
+      self.progressView.startAnimation(nil)
+    } else {
+      self.progressView.stopAnimation(nil)
+    }
+
   }
   
 }
