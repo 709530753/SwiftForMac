@@ -13,6 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
   static let kImageMenuStateOn : NSImage = NSImage(named: NSImage.Name(rawValue: "ic_menu"))!
   static let kImageMenuStateOff : NSImage = NSImage(named: NSImage.Name(rawValue: "ic_menu"))!
+  let kFeedbackUrl = "https://developer.senlime.com/topic/2"
 
   @IBOutlet weak var statusMenu: NSMenu!
   var statusItem: NSStatusItem!
@@ -26,7 +27,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     statusItem.menu = statusMenu
 
   }
-
+  @IBAction func Quit(_ sender: Any) {
+      print("quit")
+    NSWorkspace.shared.open(URL(string:kFeedbackUrl)!)
+  }
+  
   func applicationWillTerminate(_ aNotification: Notification) {
     // Insert code here to tear down your application
   }

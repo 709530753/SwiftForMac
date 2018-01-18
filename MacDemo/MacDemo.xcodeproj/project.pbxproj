@@ -12,6 +12,7 @@
 		90BDB0792010445F00811281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BDB0782010445F00811281 /* Assets.xcassets */; };
 		90BDB07C2010445F00811281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BDB07A2010445F00811281 /* Main.storyboard */; };
 		90BDB0852010590200811281 /* AddAccessPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BDB0842010590200811281 /* AddAccessPointViewController.swift */; };
+		90BDB0BF2010907800811281 /* AlterTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BDB0BE2010907800811281 /* AlterTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		90BDB07D2010445F00811281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90BDB07E2010445F00811281 /* MacDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacDemo.entitlements; sourceTree = "<group>"; };
 		90BDB0842010590200811281 /* AddAccessPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccessPointViewController.swift; sourceTree = "<group>"; };
+		90BDB0BE2010907800811281 /* AlterTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				90BDB0742010445F00811281 /* AppDelegate.swift */,
 				90BDB0762010445F00811281 /* ViewController.swift */,
 				90BDB0842010590200811281 /* AddAccessPointViewController.swift */,
+				90BDB0BE2010907800811281 /* AlterTool.swift */,
 				90BDB0782010445F00811281 /* Assets.xcassets */,
 				90BDB07A2010445F00811281 /* Main.storyboard */,
 				90BDB07D2010445F00811281 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BDB0BF2010907800811281 /* AlterTool.swift in Sources */,
 				90BDB0852010590200811281 /* AddAccessPointViewController.swift in Sources */,
 				90BDB0772010445F00811281 /* ViewController.swift in Sources */,
 				90BDB0752010445F00811281 /* AppDelegate.swift in Sources */,

@@ -663,14 +663,20 @@
                 </customObject>
                 <menu id="4pK-Wo-FrX" userLabel="Status Menu">
                     <items>
+                        <menuItem title="Quit " id="vDE-KO-73k" userLabel="Quit">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                        </menuItem>
                         <menuItem title="Feedback" id="i1x-yG-Lor">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
                         <menuItem title="About" id="Gxs-xN-AbO">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Quit " id="vDE-KO-73k">
+                        <menuItem title="Quit " id="Hei-Au-U6I" userLabel="Quit">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="Quit:" target="Voe-Tx-rLC" id="Ftj-Cl-TKO"/>
+                            </connections>
                         </menuItem>
                     </items>
                 </menu>
