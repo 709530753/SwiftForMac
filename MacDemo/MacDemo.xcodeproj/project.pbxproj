@@ -274,7 +274,7 @@
 				CODE_SIGN_ENTITLEMENTS = MacDemo/MacDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QWCLQXYG22;
+				DEVELOPMENT_TEAM = 4T6JSY2BJN;
 				INFOPLIST_FILE = MacDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FengXin.MacDemo;
@@ -290,7 +290,7 @@
 				CODE_SIGN_ENTITLEMENTS = MacDemo/MacDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QWCLQXYG22;
+				DEVELOPMENT_TEAM = 4T6JSY2BJN;
 				INFOPLIST_FILE = MacDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FengXin.MacDemo;
